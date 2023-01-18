@@ -5,8 +5,8 @@ import java.util.List;
 
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.validation.NotEmptyList;
 
-import jakarta.validation.ConstraintValidator;
-import jakarta.validation.ConstraintValidatorContext;
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
 
 public class NotEmptyListValidator implements ConstraintValidator<NotEmptyList, List>{
 

@@ -1,7 +1,8 @@
 package com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.controller;
 
+import javax.validation.Valid;
+
 import org.springframework.http.HttpStatus;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,7 +19,6 @@ import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.exception.SenhaInvali
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.dto.CredenciaisDTO;
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.dto.TokenDTO;
 
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController

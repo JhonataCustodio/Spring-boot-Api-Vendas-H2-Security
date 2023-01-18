@@ -22,7 +22,7 @@ import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.exception.PedidoNaoEn
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.dto.ItemPedidoDTO;
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.dto.PedidoDTO;
 
-import jakarta.transaction.Transactional;
+import javax.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 
 @Service

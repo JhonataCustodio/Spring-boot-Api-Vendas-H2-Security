@@ -10,10 +10,10 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.domain.service.implementation.UsuarioServiceImple;
 
-import jakarta.servlet.FilterChain;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.FilterChain;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 public class JwtAuthFilter extends OncePerRequestFilter {
 

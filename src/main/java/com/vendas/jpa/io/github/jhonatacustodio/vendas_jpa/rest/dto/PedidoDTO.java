@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.validation.NotEmptyList;
 
-import jakarta.validation.constraints.NotNull;
+import javax.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

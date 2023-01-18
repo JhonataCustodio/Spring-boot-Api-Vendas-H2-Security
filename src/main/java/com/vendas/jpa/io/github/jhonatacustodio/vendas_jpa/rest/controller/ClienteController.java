@@ -2,6 +2,8 @@ package com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.http.HttpStatus;
@@ -19,10 +21,11 @@ import org.springframework.web.server.ResponseStatusException;
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.domain.entity.Cliente;
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.domain.repository.Clientes;
 
-import jakarta.validation.Valid;
+
 
 @RestController
 @RequestMapping("/api/clientes")
+
 public class ClienteController {
 
     private Clientes clientes;

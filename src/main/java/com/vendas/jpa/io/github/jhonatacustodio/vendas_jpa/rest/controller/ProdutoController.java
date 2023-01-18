@@ -3,6 +3,8 @@ package com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.http.HttpStatus;
@@ -21,7 +23,6 @@ import static org.springframework.http.HttpStatus.*;
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.domain.entity.Produto;
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.domain.repository.Produtos;
 
-import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/produtos")

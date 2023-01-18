@@ -7,8 +7,8 @@ import java.lang.annotation.Target;
 
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.validation.constraint.NotEmptyListValidator;
 
-import jakarta.validation.Constraint;
-import jakarta.validation.Payload;
+import javax.validation.Constraint;
+import javax.validation.Payload;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import javax.validation.Valid;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,7 +28,7 @@ import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.dto.InformacoesI
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.dto.InformacoesPedidoDTO;
 import com.vendas.jpa.io.github.jhonatacustodio.vendas_jpa.rest.dto.PedidoDTO;
 
-import jakarta.validation.Valid;
+
 
 @RestController
 @RequestMapping("/api/pedidos")
